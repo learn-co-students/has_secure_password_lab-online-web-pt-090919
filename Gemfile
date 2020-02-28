@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# add bcrypt gem to enable `has_secure_password`
+gem 'bcrypt', '~> 3.1.7'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
